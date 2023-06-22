@@ -1,0 +1,27 @@
+{
+  "name": "react-blog-backend-june2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "npx nodemon --exec npx babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.9.0",
+    "mongodb": "3.6.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/node": "7.14.5",
+    "@babel/preset-env": "7.14.5",
+    "nodemon": "^2.0.22"
+  }
+}
